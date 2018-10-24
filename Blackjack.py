@@ -45,7 +45,9 @@ for suit in suits:
 
 
 #2: Shuffle the deck
-
+from random import shuffle
+shuffle(deck)
+print(deck)
 #3: Ask the player for their bet
 
 #4: Check player's bet against their pot
